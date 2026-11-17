@@ -28,7 +28,7 @@ use PHPUnit\Framework\TestCase;
 
 class RewritesTest extends TestCase
 {
-    private \Magento\UrlRewrite\Model\ResourceModel\UrlRewrite\CollectionFactory $urlRewriteCollectionFactory;
+    private \Magento\UrlRewrite\Model\ResourceModel\UrlRewriteCollectionFactory $urlRewriteCollectionFactory;
     private UrlPersistInterface&MockObject $urlPersist;
     private UrlRewriteFactory&MockObject $urlRewriteFactory;
     private UrlRewriteResource&MockObject $urlRewriteResource;
@@ -37,7 +37,7 @@ class RewritesTest extends TestCase
 
     protected function setUp(): void
     {
-        $this->urlRewriteCollectionFactory = $this->createMock(\Magento\UrlRewrite\Model\ResourceModel\UrlRewrite\CollectionFactory::class);
+        $this->urlRewriteCollectionFactory = $this->createMock(\Magento\UrlRewrite\Model\ResourceModel\UrlRewriteCollectionFactory::class);
         $this->urlPersist = $this->createMock(UrlPersistInterface::class);
         $this->urlRewriteFactory = $this->getMockBuilder(UrlRewriteFactory::class)
             ->disableOriginalConstructor()

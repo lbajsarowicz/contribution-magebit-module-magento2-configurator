@@ -23,7 +23,7 @@ use Magebit\Configurator\Model\Reconciliation\ReconciliationRequest;
 use Magento\UrlRewrite\Model\UrlRewriteFactory;
 use Magento\UrlRewrite\Model\UrlPersistInterface;
 use Magento\UrlRewrite\Model\ResourceModel\UrlRewrite as UrlRewriteResource;
-use Magento\UrlRewrite\Model\ResourceModel\UrlRewrite\CollectionFactory as UrlRewriteCollectionFactory;
+use Magento\UrlRewrite\Model\ResourceModel\UrlRewriteCollectionFactory as UrlRewriteCollectionFactory;
 
 /**
  * @SuppressWarnings(PHPMD.ShortVariable)
